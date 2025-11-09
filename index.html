@@ -4,8 +4,71 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>supabase task</title>
+    <link rel="stylesheet" href="style.css">
 </head>
 <body>
-    
+    <main class="page">
+        <section class="card">
+        <div class="card-left">
+        <div class="brand">MyApp</div>
+        <h1>Create account</h1>
+        <p class="lead">Join us — it takes only a minute. Use a strong password and keep it safe.</p>
+        <form id="signupForm">
+        <div class="row">
+        <label for="firstName">First name</label>
+        <input id="firstName" name="firstName" type="text" placeholder="Your first name" />
+        </div>
+        <div class="row">
+        <label for="lastName">Last name</label>
+        <input id="lastName" name="lastName" type="text" placeholder="Your last name" />
+        </div>
+        <div class="row">
+        <label for="email">Email</label>
+        <input id="email" name="email" type="email" placeholder="you@example.com" />
+        </div>
+        <div class="row">
+        <label for="password">Password</label>
+        <input id="password" name="password" type="password" placeholder="At least 8 characters" />
+        </div>
+        
+        
+        <div class="row-checkbox">
+        <label class="checkbox">
+        <input type="checkbox" name="terms" />
+        <span>I agree to the <a href="#">Terms</a> and <a href="#">Privacy Policy</a>.</span>
+        </label>
+        </div>
+        
+        
+        <div class="row">
+        <button class="btn-primary" type="submit">Create account</button>
+        </div>
+        
+        
+        <div class="small-note">Already have an account? <a href="#">Log in</a></div>
+        </form>
+        </div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    <script src="config.js" type="module"></script>
 </body>
 </html>
