@@ -1,0 +1,65 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Poppins", sans-serif;
+}
+
+body {
+  background: #f5f7fa;
+}
+
+/* Navbar Style */
+.navbar {
+  width: 100%;
+  background: linear-gradient(135deg, #007991, #78ffd6); /* teal to light green gradient */
+  color: white;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 15px 30px;
+  box-shadow: 0 4px 15px rgba(0, 0, 0, 0.15);
+  border-bottom-left-radius: 20px;
+  border-bottom-right-radius: 20px;
+}
+
+.nav-center h2 {
+  font-size: 22px;
+  text-align: center;
+  font-weight: 600;
+  text-shadow: 0 1px 3px rgba(0, 0, 0, 0.2);
+}
+
+.nav-center span {
+  font-weight: 700;
+  color: #fff8b5; /* soft yellow highlight for username */
+}
+
+.btn-logout {
+  background-color: #ff5f6d;
+  background: linear-gradient(135deg, #ff0844, #ffb199);
+  border: none;
+  padding: 8px 20px;
+  color: white;
+  font-size: 15px;
+  border-radius: 25px;
+  cursor: pointer;
+  transition: all 0.3s ease;
+  box-shadow: 0 3px 8px rgba(0, 0, 0, 0.2);
+}
+
+.btn-logout:hover {
+  transform: scale(1.05);
+  box-shadow: 0 4px 10px rgba(255, 90, 90, 0.3);
+}
+
+/* Responsive */
+@media (max-width: 600px) {
+  .nav-center h2 {
+    font-size: 16px;
+  }
+  .btn-logout {
+    padding: 6px 14px;
+    font-size: 14px;
+  }
+}
