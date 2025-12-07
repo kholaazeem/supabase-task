@@ -1,5 +1,5 @@
 //import { createClient } from  'https://cdn.jsdelivr.net/npm/@supabase/supabase-js/+esm'  Installation  of supbase project via cdn(but  this link does,nt work after pause period )
-import { createClient } from "https://esm.sh/@supabase/supabase-js"    // so use this cdn from esm.sh/#docs 
+import { createClient } from "https://esm.sh/@supabase/supabase-js"    // so use this cdn from esm.sh/#docs and package from supabase github
 console.log(createClient)
 
 const supURL = "https://ivuahrbcszzybdfeiawd.supabase.co"
